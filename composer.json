@@ -1,0 +1,9 @@
+{
+    "name": "root/html",
+    "description": "",
+    "type": "project",
+    "license": "MIT License",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

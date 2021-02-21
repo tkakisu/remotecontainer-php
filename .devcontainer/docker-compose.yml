@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: myapp
+    volumes:
+      - ..:/var/www/myapp
+      - myapp-vendor:/var/www/myapp/vendor
+    ports:
+      - 8080:80
+
+volumes:
+  myapp-vendor:

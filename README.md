@@ -11,7 +11,7 @@ VS Code Remote-Containersを利用したPHP開発環境サンプル
 - "felixfbecker.php-debug"
 - "editorconfig.editorconfig"
 
-EditorConfigの設定は .editorconfig ではなく .vscode/settings.json に記述します。
+EditorConfigの設定は .editorconfig ではなく .vscode/settings.json に記載。
 
 ## 使い方
 
@@ -19,3 +19,7 @@ EditorConfigの設定は .editorconfig ではなく .vscode/settings.json に記
 2. VS Code上でフォルダを開く
 3. コマンドパレットから "Remote-Containers: Reopen in Container" を選択
 4. http://localhost:8080/test.php にアクセス
+
+## 注意点
+
+- コンテナ生成後に実行するコマンドは .devcontainer/devcontainer.json に記載。
